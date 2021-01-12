@@ -1,0 +1,16 @@
+name: SimpleWarp
+description: Simple Warp plugin
+version: 1.0.0
+api: 3.14.3
+main: Hebbinkpro\SimpleWarp\Main
+
+permissions:
+  sw.use:
+    default: op
+    description: Warp or get a list of all warps
+  sw.create:
+    default: op
+    description: Create a new warp
+  sw.remove:
+    default: op
+    description: Remove a warp
